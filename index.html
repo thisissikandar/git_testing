@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe6cb16bc3.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"style="font-family: 'Poppins', sans-serif;">
+                    Apna Store
+                    <!-- <img src="images/logo.png" alt="" width="125px"> -->
+                </div>
+                <nav>
+                    <ul id="menu-item">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" , height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Giv Your Workout <br> New Style!</h1>
+                    <p>Success isn't Always about greatness. It's about consistency. Consistent <br> hard work gains
+                        success. Greatness will come.</p>
+                    <a href="" class="btn">Explore Now &rarr;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Fetured Categories-------- -->
+
+    <div class="categories">
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Fetured products-------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+            <!-- --------offers---------- -->
+            <div class="offer">
+                <div class="smalll-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/exclusive.png" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Exclusive Available on Redstore</p>
+                            <h1>smart band 4</h1>
+                            <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch
+                                display with adjustable brightness, so everrything is clear as can be.</small>
+                            <a href="" class="btn">Buy Now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------comments--------- -->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum rem eum libero modi
+                                voluptatibus est facere iste itaque, temporibus, optio blanditiis vitae at cum
+                                aspernatur maiores id? Sequi, nisi harum?</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-1.png">
+                            <h3>Sean Parker</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum rem eum libero modi
+                                voluptatibus est facere iste itaque, temporibus, optio blanditiis vitae at cum
+                                aspernatur maiores id? Sequi, nisi harum?</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-2.png">
+                            <h3>john wick</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum rem eum libero modi
+                                voluptatibus est facere iste itaque, temporibus, optio blanditiis vitae at cum
+                                aspernatur maiores id? Sequi, nisi harum?</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-3.png">
+                            <h3>Smith</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -----sponser section----- -->
+            <div class="brands">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="images/logo-godrej.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="images/logo-oppo.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="images/logo-coca-cola.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="images/logo-philips.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="images/logo-paypal.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------footer------ -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download App for Android and ios mobile phone.</p>
+                            <div class="app-logo">
+                                <img src="images/play-store.png">
+                                <img src="images/app-store.png">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <!-- <img src="images/logo-white.png" alt=""> -->
+                            <h2>Apna Store</h2>
+                            <p>Our Purpose Is To Sustainability Make the pleasure and Benifits of Sports Accessible to
+                                the many.</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Usefull Links</h3>
+                            <ul>
+                                <li>cupons</li>
+                                <li>Blog post</li>
+                                <li>Return policy</li>
+                                <li>Join affiliate</li>
+
+                            </ul>
+                            <div class="footer-col-4">
+                                <h3>Follow Us</h3>
+                                <ul>
+                                    <li>Facebook</li>
+                                    <li>Instagram</li>
+                                    <li>Twitter</li>
+                                    <li>Linked in</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright</p>
+                </div>
+                <script>
+                    var MenuItems = document.getElementById("menu-item");
+                    MenuItems.style.maxHeight = "0px";
+                    function menutoggle() {
+                        if (MenuItems.style.maxHeight == "0px") {
+                            MenuItems.style.maxHeight = "200px";
+                        }
+                        else {
+                            MenuItems.style.maxHeight = "0px";
+                        }
+                    }
+
+                </script>
+</body>
+
+</html>
